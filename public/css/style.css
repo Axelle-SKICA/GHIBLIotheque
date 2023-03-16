@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#header-container {
+    background: center / cover no-repeat url(/images/ghibli.jpg);
+    height: 12rem;
+}
+
+h1 {
+    padding-left: 2rem;
+    font-family: 'Poor Story', cursive;
+    font-size: 3.5em;
+    color : #173331;
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Poor Story', cursive;
+    color : #173331;
+    background-color: #E1E0B7;
+}
+
+#films-list-containers {
+    width: 850px;
+    background-color: white;
+    margin : 0.5rem auto;
+    padding : 0.5rem 0;
+}
+
+#films-list-containers h2 {
+    text-align: center;
+}
+
+#cards-container {
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.card {
+    width: 120px;
+    height: 175px;
+    border:#173331;
+    border-radius: 10px;
+    background-color: #E1E0B7;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 4px darkolivegreen;
+}
+
+.card img {
+    width : 70px;
+    margin : 0.2rem auto;
+    box-shadow: 0 0 3px darkolivegreen;
+}
+
+.card a {
+    color: darkolivegreen;
+    text-align: center;
+    margin-top: 0.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.card a:hover {
+    font-size: 1.1rem;
+}
+
+#container-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aperçu-affiche {
+    max-width: 150px;
+    margin-bottom: 1.5rem;
+}

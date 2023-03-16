@@ -1,0 +1,18 @@
+<%- include("partials/header") %>
+
+        </header>
+        <main>
+            <div id="films-list-containers">
+                <h2>Liste des films</h2>
+                <section id="cards-container">
+                <% films.forEach( (film) => { %>
+                    <article class="card">
+                        <img class="aperçu-affiche" src="<%=film.image_src%>">
+                        <a href="/films/<%=film.id%>"><%= film.title %></a>
+                    </article>
+                <% }) %>
+                </section>
+            </div>  
+        </main>
+    </body>
+</html>

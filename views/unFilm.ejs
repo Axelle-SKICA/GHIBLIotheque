@@ -1,0 +1,42 @@
+<%- include("partials/header") %>
+
+        <nav>
+            <a href="/">Accueil</a>
+            <a href="/films">Liste des films</a>
+        </nav>
+        </header>
+        <main>
+            <section id="film-container">
+                <div id="film-header">
+                    <h2><%=film.title%></h2>
+                    <img src="<%=film.banner_src%>">
+                </div>
+                <div id="film-details">
+                    <img src="<%=film.image_src%>" alt="affiche <%=film.title%>" class="affiche">
+                    <div id="film-description">
+                        <div class="film-detail-label">
+                            <p class="description-label">TITRE ORIGINAL :</p>
+                            <p class="description-text"><%=film.original_title%></p>
+                        </div>
+                        <div class="film-detail-label">
+                            <p class="description-label">DESCRIPTION :</p>
+                            <p class="description-text"><%=film.description%></p>
+                        </div>
+                        <div class="film-detail-label">
+                            <p class="description-label">REALISATEUR :</p>
+                            <p class="description-text"><%=film.director%></p>
+                        </div>
+                        <div class="film-detail-label">
+                            <p class="description-label">DATE DE SORTIE :</p>
+                            <p class="description-text"><%=film.release_date%></p>
+                        </div>
+                        <div class="film-detail-label">
+                            <p class="description-label">DUREE :</p>
+                            <p class="description-text"><%=film.duration%> min</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
