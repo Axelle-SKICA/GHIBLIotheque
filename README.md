@@ -2,7 +2,7 @@
 
 I started this project about 1 month after I started learning HTML, CSS, JS, Node, EJS...
 
-My goal qas to practise :  
+My goal was to practise :  
 
 - views and EJS,
 - CSS (flexboxes, image in the backgrounds, hover styles etc...)
@@ -13,6 +13,8 @@ My goal qas to practise :
 ![NodeJS](https://img.shields.io/badge/node-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![ExpressJS](https://img.shields.io/badge/Express-ccc?style=for-the-badge&logo=express&logoColor=black)
 ![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge)
+
+__GHIBLIothèque__ displays the list of all Ghibli movies, and you can access the details of each movie.
 
 
 # Launch
